@@ -1,0 +1,9 @@
+Problem Statement - to create a Social media Aggregator.
+
+Idea - To adopt to any social media post/comment .... api's we add adaptors in between our api's and specific social media api's.
+
+About adaptors:
+
+Adapter design pattern is one of the structural design pattern and it is used so that two unrelated interfaces can work together.
+The pattern involves creating an adapter class that bridges the gap between the interfaces, allowing them to communicate effectively.
+

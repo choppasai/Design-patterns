@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/NotificationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/NotificationFactoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/NotificationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/Problem statement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/PushNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/smsNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/ClonableObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Configuration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/ConfigurationPrototypeRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/ConfigurationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Problem Statement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/PrototypeRegistryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/ConnectionPoolImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/DatabaseConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/Problem statement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +43,14 @@
   "keyToString": {
     "Application.Client.executor": "Run",
     "Application.Prototype.Configuration_Object_Cloning.Client.executor": "Run",
+    "Application.Singleton.ConnectionPool.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Prototype.Configuration_Object_Cloning.Client">
+  <component name="RunManager" selected="Application.Singleton.ConnectionPool.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factory.NotificationSystem.Client" />
       <module name="Design Patterns" />
@@ -95,8 +77,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Singleton.ConnectionPool.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Singleton.ConnectionPool.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.ConnectionPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Singleton.ConnectionPool.Client" />
         <item itemvalue="Application.Prototype.Configuration_Object_Cloning.Client" />
         <item itemvalue="Application.Client" />
       </list>
