@@ -1,8 +1,10 @@
 package Adaptor.SocialMediaAggregate.adapters;
 
+import Adaptor.SocialMediaAggregate.SocialMediaPost;
+
 import java.util.List;
 
-public interface SocialMediaAdapter<T> {
-    List<T> getPost(Long userId,Long timeStamp);
+public interface SocialMediaAdapter {
+    List<SocialMediaPost> getPost(Long userId, Long timeStamp);
     void getStatus(Long userId,String status);
 }

@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/ConnectionPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/ConnectionPoolImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Singleton/ConnectionPool/Problem statement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/SocialMediaPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/SocialMediaPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/FacebookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/FacebookAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/SocialMediaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/SocialMediaAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/TwitterAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/TwitterAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/FacebookPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/FacebookPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterTweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterTweet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +43,54 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Prototype.Configuration_Object_Cloning.Client.executor": "Run",
     "Application.Singleton.ConnectionPool.Client.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Scaler/Design Patterns/src/Adaptor/SocialMediaAggregate"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Singleton.ConnectionPool.Client">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Scaler\Design Patterns\src\Adaptor\SocialMediaAggregate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MediaManager">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factory.NotificationSystem.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Factory.NotificationSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adaptor.SocialMediaAggregate.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adaptor.SocialMediaAggregate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Adaptor.SocialMediaAggregate.MediaManager" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Adaptor.SocialMediaAggregate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediaManager" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Singleton.ConnectionPool.Client" />
         <item itemvalue="Application.Prototype.Configuration_Object_Cloning.Client" />
         <item itemvalue="Application.Client" />

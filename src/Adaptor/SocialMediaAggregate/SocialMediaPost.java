@@ -6,7 +6,7 @@ public class SocialMediaPost {
     private Long userId;
     private Long timestamp;
 
-    public SocialMediaPost(String id,String status,Long userId,Long timestamp){
+    public SocialMediaPost(String id,String status,Long userId){
         this.id = id;
         this.status = status;
         this.userId = userId;

@@ -10,4 +10,16 @@ public class TwitterTweet {
         this.tweet = tweet;
         this.userId = userId;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getTweet() {
+        return tweet;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
 }

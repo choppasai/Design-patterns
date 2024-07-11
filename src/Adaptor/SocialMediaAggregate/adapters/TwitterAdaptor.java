@@ -1,18 +1,27 @@
 package Adaptor.SocialMediaAggregate.adapters;
 
-import external.TwitterApi;
-import external.TwitterTweet;
+
+import Adaptor.SocialMediaAggregate.SocialMediaPost;
+import Adaptor.SocialMediaAggregate.external.TwitterApi;
+import Adaptor.SocialMediaAggregate.external.TwitterTweet;
 
 import java.util.List;
 
-public class TwitterAdaptor implements SocialMediaAdapter<TwitterTweet> {
+public class TwitterAdaptor implements SocialMediaAdapter {
     private TwitterApi twitterApi;
+    public TwitterAdaptor(){
+        init();
+    }
     public void init(){
         twitterApi = new TwitterApi();
     }
     @Override
-    public List<TwitterTweet> getPost(Long userId,Long timeStamp) {
-        return twitterApi.getTweets(userId);
+    public List<SocialMediaPost> getPost(Long userId, Long timeStamp) {
+        return twitterApi.getTweets(userId).stream().map(TwitterAdaptor::to).toList();
+    }
+
+    public static SocialMediaPost to(TwitterTweet tweet){
+        return new SocialMediaPost(tweet.getId(),tweet.getTweet(), tweet.getUserId());
     }
 
     @Override

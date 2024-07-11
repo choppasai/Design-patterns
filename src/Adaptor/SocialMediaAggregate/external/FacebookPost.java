@@ -14,4 +14,20 @@ public class FacebookPost {
         this.timestamp = timestamp;
 
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public Long getTimestamp() {
+        return timestamp;
+    }
 }
