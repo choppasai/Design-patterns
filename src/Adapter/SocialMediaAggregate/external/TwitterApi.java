@@ -1,9 +1,9 @@
-package Adaptor.SocialMediaAggregate.external;
+package Adapter.SocialMediaAggregate.external;
 
 import java.util.List;
 
-import static Adaptor.SocialMediaAggregate.external.APIUtils.logTwitterGetPosts;
-import static Adaptor.SocialMediaAggregate.external.APIUtils.logTwitterPostStatus;
+import static Adapter.SocialMediaAggregate.external.APIUtils.logTwitterGetPosts;
+import static Adapter.SocialMediaAggregate.external.APIUtils.logTwitterPostStatus;
 
 public class TwitterApi {
     public List<TwitterTweet> getTweets(Long userId) {

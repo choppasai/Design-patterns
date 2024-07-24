@@ -1,4 +1,4 @@
-package Adaptor.SocialMediaAggregate;
+package Adapter.SocialMediaAggregate;
 
 public class SocialMediaPost {
     private String id;

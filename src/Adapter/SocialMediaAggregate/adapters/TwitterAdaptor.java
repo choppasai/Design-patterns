@@ -1,9 +1,9 @@
-package Adaptor.SocialMediaAggregate.adapters;
+package Adapter.SocialMediaAggregate.adapters;
 
 
-import Adaptor.SocialMediaAggregate.SocialMediaPost;
-import Adaptor.SocialMediaAggregate.external.TwitterApi;
-import Adaptor.SocialMediaAggregate.external.TwitterTweet;
+import Adapter.SocialMediaAggregate.SocialMediaPost;
+import Adapter.SocialMediaAggregate.external.TwitterApi;
+import Adapter.SocialMediaAggregate.external.TwitterTweet;
 
 import java.util.List;
 

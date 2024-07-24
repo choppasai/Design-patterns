@@ -1,4 +1,4 @@
-package Adaptor.SocialMediaAggregate.external;
+package Adapter.SocialMediaAggregate.external;
 
 public class APIUtils {
     public static void logFacebookGetPosts() {

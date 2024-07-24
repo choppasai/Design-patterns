@@ -1,8 +1,8 @@
-package Adaptor.SocialMediaAggregate;
+package Adapter.SocialMediaAggregate;
 
 
-import Adaptor.SocialMediaAggregate.adapters.FacebookAdapter;
-import Adaptor.SocialMediaAggregate.adapters.SocialMediaAdapter;
+import Adapter.SocialMediaAggregate.adapters.FacebookAdapter;
+import Adapter.SocialMediaAggregate.adapters.SocialMediaAdapter;
 
 public class MediaManager {
     public static void main(String[] args) {

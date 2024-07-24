@@ -1,8 +1,8 @@
-package Adaptor.SocialMediaAggregate.adapters;
+package Adapter.SocialMediaAggregate.adapters;
 
-import Adaptor.SocialMediaAggregate.SocialMediaPost;
-import Adaptor.SocialMediaAggregate.external.FacebookApi;
-import Adaptor.SocialMediaAggregate.external.FacebookPost;
+import Adapter.SocialMediaAggregate.SocialMediaPost;
+import Adapter.SocialMediaAggregate.external.FacebookApi;
+import Adapter.SocialMediaAggregate.external.FacebookPost;
 
 import java.util.List;
 

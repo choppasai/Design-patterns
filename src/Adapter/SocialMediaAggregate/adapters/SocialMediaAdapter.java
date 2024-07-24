@@ -1,6 +1,6 @@
-package Adaptor.SocialMediaAggregate.adapters;
+package Adapter.SocialMediaAggregate.adapters;
 
-import Adaptor.SocialMediaAggregate.SocialMediaPost;
+import Adapter.SocialMediaAggregate.SocialMediaPost;
 
 import java.util.List;
 

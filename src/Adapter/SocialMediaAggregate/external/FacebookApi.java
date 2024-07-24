@@ -1,9 +1,9 @@
-package Adaptor.SocialMediaAggregate.external;
+package Adapter.SocialMediaAggregate.external;
 
 import java.util.List;
 
-import static Adaptor.SocialMediaAggregate.external.APIUtils.logFacebookGetPosts;
-import static Adaptor.SocialMediaAggregate.external.APIUtils.logFacebookPostStatus;
+import static Adapter.SocialMediaAggregate.external.APIUtils.logFacebookGetPosts;
+import static Adapter.SocialMediaAggregate.external.APIUtils.logFacebookPostStatus;
 
 
 public class FacebookApi {
