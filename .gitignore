@@ -29,3 +29,5 @@ bin/
 .DS_Store
 
 /src/Adapter/LanguageTranslationIntegration
+/src/Prototype/User
+/src/Builder/MessagingService

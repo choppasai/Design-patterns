@@ -8,7 +8,7 @@ public class PushNotification extends Notification{
 
     @Override
     public NotificationType notificationType() {
-        return null;
+        return NotificationType.PUSH;
     }
     @Override
     public void sendNotification() {

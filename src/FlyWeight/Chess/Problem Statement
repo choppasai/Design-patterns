@@ -1,0 +1,3 @@
+to implement the Flyweight pattern to optimize the memory usage of chess user objects in your application.
+The Flyweight pattern aims to share common intrinsic state between multiple objects to reduce memory consumption while keeping extrinsic state (variable and context-dependent) separate for each object.
+Look closely at the ChessUser class and identify which fields are going to be different amongst different games and which ones will be the same

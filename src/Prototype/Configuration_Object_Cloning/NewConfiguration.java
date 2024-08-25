@@ -12,6 +12,7 @@ public class NewConfiguration extends Configuration{
 
     public void setConfigId(int configId) {
         this.configId = configId;
+
     }
 
     public String getConfigName() {
@@ -20,6 +21,7 @@ public class NewConfiguration extends Configuration{
 
     public void setConfigName(String configName) {
         this.configName = configName;
+
     }
 
     public String getConfigValue() {

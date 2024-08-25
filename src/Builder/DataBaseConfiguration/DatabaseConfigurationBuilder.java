@@ -1,7 +1,5 @@
-package Builder;
+package Builder.DataBaseConfiguration;
 
-
-import java.util.Locale;
 
 public class DatabaseConfigurationBuilder {
     private String databaseUrl;

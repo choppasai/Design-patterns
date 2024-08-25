@@ -7,8 +7,10 @@ public class Client {
 
         Configuration basic = new Configuration("dark theme",true,"English",
                 false,2,"Normal", BASIC);
-        NewConfiguration newConfiguration = new NewConfiguration(basic);
-
+        NewConfiguration newConfiguration = new  NewConfiguration(basic);
+        newConfiguration.setConfigId(123);
+        newConfiguration.setConfigName("sai");
+        newConfiguration.setConfigValue("basic default");
         PrototypeRegistryImpl impl = new PrototypeRegistryImpl();
         impl.addPrototype(basic);
 //        System.out.println(impl.getPrototype(BASIC).getFontSize());

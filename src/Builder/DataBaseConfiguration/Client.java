@@ -1,4 +1,4 @@
-package Builder;
+package Builder.DataBaseConfiguration;
 
 public class Client {
     public static void main(String[] args) {

@@ -5,31 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DatabaseConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/DatabaseConfigurationBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/overview" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MomentumStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/MovingAverageStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/StockTradingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/TradingIndicatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/TradingStrategyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/VolatileStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/AWSAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/CloudAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/GoogleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Controller/CloudController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/AWS/AWSApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/AWS/AWSConnectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/Google/GoogleApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/Google/GoogleConnectionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/BaseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/Connection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/ConnectionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Service/CloudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Service/CloudServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/CreateConnectionRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/CreateConnectionResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/ResponseStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/QueryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/ChessUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/Colour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/FlyWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/FlyweightRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/UserExtrinsicState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/UserIntrinsicState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/User/ClonableObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/User/UserPrototypeRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prototype/User/UserType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/MediaManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/MediaManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/Problem Description" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/Problem Description" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/SocialMediaPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/SocialMediaPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/FacebookAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/adapters/FacebookAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/SocialMediaAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/adapters/SocialMediaAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/adapters/TwitterAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/adapters/TwitterAdaptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/APIUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/external/APIUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/FacebookApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/external/FacebookApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/FacebookPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/external/FacebookPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/external/TwitterApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Adaptor/SocialMediaAggregate/external/TwitterTweet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Adapter/SocialMediaAggregate/external/TwitterTweet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/DatabaseConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseConfigurationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/DatabaseConfigurationBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Builder/overview" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/overview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/NotificationSystem/PushNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/PushNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
+        <option value="package-info" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,51 +79,46 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Adapter.LanguageTranslationIntegration.TranslationManager.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MediaManager.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Prototype.Configuration_Object_Cloning.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Singleton.ConnectionPool.Client.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TranslationManager.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Scaler/Design Patterns/src/Adaptor/SocialMediaAggregate&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Adapter.LanguageTranslationIntegration.TranslationManager.executor": "Run",
+    "Application.Builder.BuildingQueries.Client.executor": "Run",
+    "Application.Client.executor": "Run",
+    "Application.Factory.NotificationSystem.Client.executor": "Run",
+    "Application.FlyWeight.Chess.Client.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MediaManager.executor": "Run",
+    "Application.Prototype.Configuration_Object_Cloning.Client.executor": "Run",
+    "Application.Prototype.User.Client.executor": "Run",
+    "Application.Singleton.ConnectionPool.Client.executor": "Run",
+    "Application.TranslationManager.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Scaler/Redis/SpringRedisSample-main"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Scaler\Design Patterns\src\Adaptor\SocialMediaAggregate" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Scaler\Design Patterns\src\Factory\Notification" />
+      <recent name="C:\Scaler\Design Patterns\src\Builder\DataBaseConfiguration" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="LanguageTranslationIntegration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Adapter.LanguageTranslationIntegration.TranslationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter.LanguageTranslationIntegration.TranslationManager" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Adapter.LanguageTranslationIntegration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FlyWeight.Chess.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Builder.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.Builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adaptor.SocialMediaAggregate.Main" />
+    <configuration name="CreationalDesignPatterns.Builder.BuildingQueries.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.BuildingQueries.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Adapter.SocialMediaAggregate.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.Builder.BuildingQueries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adapter.SocialMediaAggregate.MediaManager" />
+    <configuration name="CreationalDesignPatterns.Builder.NotificationSystem.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.NotificationSystem.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Adapter.SocialMediaAggregate.*" />
+          <option name="PATTERN" value="CreationalDesignPatterns.Builder.NotificationSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +152,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TranslationManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Adaptor.LanguageTranslationIntegration.TranslationManager" />
+    <configuration name="FlyWeight.Chess.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlyWeight.Chess.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Adaptor.LanguageTranslationIntegration.*" />
+          <option name="PATTERN" value="FlyWeight.Chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Prototype.User.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Prototype.User.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Prototype.User.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlyWeight.Chess.Client" />
+        <item itemvalue="Application.CreationalDesignPatterns.Builder.NotificationSystem.Client" />
+        <item itemvalue="Application.Prototype.User.Client" />
+        <item itemvalue="Application.CreationalDesignPatterns.Builder.BuildingQueries.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Adapter.LanguageTranslationIntegration.TranslationManager" />
-        <item itemvalue="Application.TranslationManager" />
-        <item itemvalue="Application.MediaManager" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -200,10 +229,15 @@
           <line>83</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java</url>
           <line>3</line>
-          <properties class="Factory.NotificationSystem.Client" method="main">
+          <properties class="Factory.Client" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

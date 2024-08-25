@@ -1,4 +1,4 @@
-package Builder;
+package Builder.DataBaseConfiguration;
 
 public class DatabaseConfiguration {
 
