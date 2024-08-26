@@ -1,0 +1,7 @@
+Graphic/ Image editing application
+
+Job is add different filters,images, effects etc to a image.
+To do this we use decorators structural design pattern.
+
+For this problem I had taken some decorators like blur,grayscale and sharpen Image.
+we can decorate an image any kind of decorators we have.

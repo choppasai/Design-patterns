@@ -5,51 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/AWSAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/CloudAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Adapters/GoogleAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Controller/CloudController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/AWS/AWSApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/AWS/AWSConnectionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/Google/GoogleApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Libraries/Google/GoogleConnectionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/BaseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/ConnectionStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Repository/UserRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Service/CloudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/Service/CloudServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/CreateConnectionRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/CreateConnectionResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/CloudServiceProvider/dtos/ResponseStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Builder/BuildingQueries/QueryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/ChessUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/Colour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/FlyWeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/FlyweightRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/UserExtrinsicState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FlyWeight/Chess/UserIntrinsicState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/User/ClonableObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/User/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/User/UserPrototypeRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Prototype/User/UserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/BaseImageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/BlurImageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/GrayscaleImageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/SharpenImageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/ImageEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/ImageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Problem Statement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/RawImageEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Utils/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Utils/ImageUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/DatabaseConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/DatabaseConfigurationBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/DatabaseConfigurationBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder/overview" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder/DataBaseConfiguration/overview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Factory/NotificationSystem/PushNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/NotificationSystem/PushNotification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prototype/Configuration_Object_Cloning/NewConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +51,7 @@
     "Application.Adapter.LanguageTranslationIntegration.TranslationManager.executor": "Run",
     "Application.Builder.BuildingQueries.Client.executor": "Run",
     "Application.Client.executor": "Run",
+    "Application.Decorator.ImageEditingApplication.Client.executor": "Run",
     "Application.Factory.NotificationSystem.Client.executor": "Run",
     "Application.FlyWeight.Chess.Client.executor": "Run",
     "Application.Main.executor": "Run",
@@ -112,20 +80,7 @@
       <recent name="LanguageTranslationIntegration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyWeight.Chess.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.Client" />
-      <module name="Design Patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CreationalDesignPatterns.Builder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Decorator.ImageEditingApplication.Client">
     <configuration name="CreationalDesignPatterns.Builder.BuildingQueries.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.BuildingQueries.Client" />
       <module name="Design Patterns" />
@@ -145,6 +100,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CreationalDesignPatterns.Builder.NotificationSystem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.ImageEditingApplication.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.ImageEditingApplication.Client" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.ImageEditingApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator.ImageEditingApplication.Client" />
         <item itemvalue="Application.FlyWeight.Chess.Client" />
         <item itemvalue="Application.CreationalDesignPatterns.Builder.NotificationSystem.Client" />
         <item itemvalue="Application.Prototype.User.Client" />
         <item itemvalue="Application.CreationalDesignPatterns.Builder.BuildingQueries.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
