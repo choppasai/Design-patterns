@@ -1,0 +1,5 @@
+We are developing a software application for data analysis.
+The application involves data collection, preprocessing, analysis algorithms, and visualization.
+The interactions between these components can become complex.
+So, Our goal is to provide a simplified interface for data analysts to perform end-to-end analysis tasks without dealing with the inner workings of each component.
+This we can done with help of facade structural design pattern.

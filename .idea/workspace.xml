@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/BaseImageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/BlurImageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/GrayscaleImageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Decorators/SharpenImageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/ImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/ImageManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Problem Statement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/RawImageEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Utils/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/ImageEditingApplication/Utils/ImageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/AnalysisFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/DataAnalysisManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/AnalysisAlgorithmConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/AnalysisResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/DataCollectionParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/DataCollectionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/PreprocessedData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/PreprocessingOptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/ProbelmStatement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/AnalysisAlgorithmService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/DataCollectionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/DataPreprocessingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/VisualizationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,28 +49,28 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Adapter.LanguageTranslationIntegration.TranslationManager.executor": "Run",
-    "Application.Builder.BuildingQueries.Client.executor": "Run",
-    "Application.Client.executor": "Run",
-    "Application.Decorator.ImageEditingApplication.Client.executor": "Run",
-    "Application.Factory.NotificationSystem.Client.executor": "Run",
-    "Application.FlyWeight.Chess.Client.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MediaManager.executor": "Run",
-    "Application.Prototype.Configuration_Object_Cloning.Client.executor": "Run",
-    "Application.Prototype.User.Client.executor": "Run",
-    "Application.Singleton.ConnectionPool.Client.executor": "Run",
-    "Application.TranslationManager.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Scaler/Redis/SpringRedisSample-main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Adapter.LanguageTranslationIntegration.TranslationManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Builder.BuildingQueries.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Decorator.ImageEditingApplication.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Factory.NotificationSystem.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlyWeight.Chess.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MediaManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prototype.Configuration_Object_Cloning.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Prototype.User.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Singleton.ConnectionPool.Client.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TranslationManager.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Scaler/Redis/SpringRedisSample-main&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Scaler\Design Patterns\src\Adaptor\SocialMediaAggregate" />
