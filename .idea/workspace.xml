@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="635177f8-b488-4f72-af77-d8128ab997df" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/AnalysisFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/DataAnalysisManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/AnalysisAlgorithmConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/AnalysisResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/DataCollectionParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/DataCollectionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/PreprocessedData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Model/PreprocessingOptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/ProbelmStatement" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/AnalysisAlgorithmService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/DataCollectionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/DataPreprocessingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/DataAnalysis/Service/VisualizationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/ObserverRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Problem Statement" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Service/AppService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Service/SmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/StockTradingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Observer/StockTradingApplication/Utils/NotificationUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,13 +79,13 @@
       <recent name="LanguageTranslationIntegration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decorator.ImageEditingApplication.Client">
-    <configuration name="CreationalDesignPatterns.Builder.BuildingQueries.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreationalDesignPatterns.Builder.BuildingQueries.Client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Observer.StockTradingApplication.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CreationalDesignPatterns.Builder.BuildingQueries.*" />
+          <option name="PATTERN" value="Observer.StockTradingApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Decorator.ImageEditingApplication.Client" />
         <item itemvalue="Application.FlyWeight.Chess.Client" />
         <item itemvalue="Application.CreationalDesignPatterns.Builder.NotificationSystem.Client" />
         <item itemvalue="Application.Prototype.User.Client" />
-        <item itemvalue="Application.CreationalDesignPatterns.Builder.BuildingQueries.Client" />
       </list>
     </recent_temporary>
   </component>
